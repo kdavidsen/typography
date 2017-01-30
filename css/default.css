@@ -1,0 +1,59 @@
+/*Containers*/
+html,body {
+	height: 100%;
+	width: 100%;
+}
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url('../images/blackhole.jpg') no-repeat center fixed;
+	background-size: cover;
+}
+#container {
+	position: relative;
+}
+
+/* Text Style */
+.title {
+	font-family: "Slabo 27px";
+	font-size: 6em;
+	color: white;
+	letter-spacing: -.02em;
+	text-rendering: optimizeLegibility;
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+
+.text {
+	width: 700px;
+	top: -310px;
+	left: 200px;
+	text-align: left;
+	position: relative;
+	font-family: "Source Sans Pro";
+	font-size: 1.2em;
+}
+
+.author {
+	font-size: 1.5em;
+	line-height: .7em;
+}
+
+.anatomy {
+	width: 600px;
+	height: 300px;
+	background-image: url('../images/black-hole-anatomy.jpg');
+	background-size: 100% 100%;
+	position: relative;
+	margin: 10px 0 0 10px;
+	left: 900px;
+}
+
+.date{
+	font-size: .7em;
+}
+
+.italic {
+	font-style: italic;
+}
